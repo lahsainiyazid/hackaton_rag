@@ -5,7 +5,8 @@ from prompts.expansion import expansion_prompt
 from prompts.answer import answer_prompt
 from pymongo import MongoClient
 from langchain_mongodb import MongoDBAtlasVectorSearch
-from langchain_community.retrievers import BM25Retriever,EnsembleRetriever
+from langchain_community.retrievers import BM25Retriever
+from langchain_classic.retrievers import EnsembleRetriever
 from langchain_core.documents import Document
 from dotenv import load_dotenv,find_dotenv
 
