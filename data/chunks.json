@@ -1,0 +1,1112 @@
+[
+  {
+    "Content": "BASE DE CONNAISSANCES DE RÉFÉRENCE — CHATBOT IA &\nRAG\nTitre du document : Documentation Technique, Commerciale et Opérationnelle pour la Location de Tracteurs\nIntelligents Équipés IoT au Maroc\nDescription : Corpus de connaissances exhaustif destiné au système de génération augmentée par\nrécupération (RAG) du chatbot d'assistance. Contient les procédures de location, guides de choix, catalogue\nd'alertes IoT, ﬁches de dépannage, tariﬁcation illustrative, FAQ et limites du service.\nIdentiﬁant Document : KB-AGRI-IOT-MAROC-2026-V1\nVersion : 1.0.0 (Édition de Référence)\nDate de génération : Novembre 2026\nPublic Cible : Chatbot IA (système RAG), Agriculteurs marocains, Exploitants, Coopératives, Équipes\nd'assistance client.\nDomaine : Agriculture de précision, Location de matériel agricole, IoT & Télémétrie, Maintenance préventive.\nPays de référence : Royaume du Maroc (contexte agronomique, pédo-climatique et opérationnel local).",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 0,
+      "page_label": "1",
+      "id": 0
+    }
+  },
+  {
+    "Content": "Pays de référence : Royaume du Maroc (contexte agronomique, pédo-climatique et opérationnel local).\nStatut contractuel : DOCUMENT DE RÉFÉRENCE RAG. Les paramètres commerciaux réels, grilles tarifaires\noﬃcielles et détails de ﬂotte restent À CONFIRMER PAR L'ÉQUIPE PROJET.\nTable des Matières Explicite\n1. Présentation Générale du Service\n2. Le Service de Location\n3. Les Tracteurs Agricoles\n4. Comment Choisir le Bon Tracteur ?\n5. Présentation du Système de Capteurs\n6. Surveillance Intelligent & Détection\n7. Catalogue des Alertes IoT\n8. Procédures en Cas de Panne\n9. Maintenance et Entretien\n10. Tariﬁcation et Coûts\n11. Questions Financières & Collectif\n12. Livraison, Utilisation & Restitution\n13. Connectivité & Zones Rurales\n14. Utilisation du Site Web\n15. Foire Aux Questions (FAQ 50+)\n16. Scénarios & Conversations IA\n17. Données, Conﬁdentialité & RGPD\n18. Limites du Système\n19. Glossaire Technique & Agronomique\n20. Fiches Opérationnelles (Fiches A-J)\n21. Annexe — Éléments à Conﬁrmer",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 0,
+      "page_label": "1",
+      "id": 1
+    }
+  },
+  {
+    "Content": "18. Limites du Système\n19. Glossaire Technique & Agronomique\n20. Fiches Opérationnelles (Fiches A-J)\n21. Annexe — Éléments à Conﬁrmer\nCHAPITRE 1 — PRÉSENTATION GÉNÉRALE DU SERVICE\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 1 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 0,
+      "page_label": "1",
+      "id": 2
+    }
+  },
+  {
+    "Content": "1.1 Vision du Projet et Contexte Marocain\nLe projet propose une plateforme numérique innovante dédiée à la modernisation du secteur agricole au\nMaroc. Notre mission est d'offrir un accès équitable, ﬂexible et sécurisé à des tracteurs agricoles performants\ngrâce à la location à la demande, couplée à un système de surveillance intelligente par capteurs IoT (Internet\ndes Objets) et à un assistant virtuel guidé par l'intelligence artiﬁcielle.\nAu Maroc, l'agriculture fait face à des déﬁs majeurs : variabilité météorologique extrême, sécheresses\nrécurrentes, pression sur les coûts d'exploitation et capitalisation limitée des petites et moyennes exploitations.\nL'accès à la mécanisation est souvent un goulet d'étranglement décisif lors des fenêtres de travail très courtes\n(labours d'automne, semis après pluie, récoltes).\n1.2 Le Problème Réel Rencontré par les Agriculteurs\nL'achat d'un tracteur agricole neuf représente un investissement lourd (souvent entre 200 000 et 600 000 MAD),",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 1,
+      "page_label": "2",
+      "id": 3
+    }
+  },
+  {
+    "Content": "L'achat d'un tracteur agricole neuf représente un investissement lourd (souvent entre 200 000 et 600 000 MAD),\ndiﬃcilement amortissable pour des exploitations de petite ou moyenne superﬁcie (moins de 20 hectares). De\nplus, les pannes mécaniques imprévues durant les périodes critiques d'activité entraînent des pertes\nﬁnancières considérables et des retards irréversibles dans le calendrier d'itinéraires techniques.\n1.3 Les Trois Composantes Intégrées du Service\n1. La Location Flexilble de Matériel Agricole : Permet d'obtenir le bon tracteur au bon moment, pour une\njournée, une semaine ou toute une saison, sans supporter les charges ﬁxes d'amortissement et d'assurance\nannuelle.\n2. La Surveillance Intelligente par Capteurs IoT : Des capteurs installés sur les machines surveillent les\nparamètres vitaux (température, vibrations, tension batterie, etc.) pour identiﬁer précocement les anomalies\nd'utilisation ou de fonctionnement.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 1,
+      "page_label": "2",
+      "id": 4
+    }
+  },
+  {
+    "Content": "paramètres vitaux (température, vibrations, tension batterie, etc.) pour identiﬁer précocement les anomalies\nd'utilisation ou de fonctionnement.\n3. L'Assistance Numérique & Chatbot IA : Une interface conversationnelle disponible 24/7 pour conseiller\nl'agriculteur sur le choix du tracteur, expliquer le fonctionnement des alertes et le guider pas à pas en cas\nd'anomalie.\n1.4 Avantages de la Location par Rapport à l'Achat\nLa location transforme un coût ﬁxe massif (achat de la machine, dépréciation, maintenance lourde) en un coût\nvariable proportionnel aux surfaces travaillées. Elle garantit l'accès à du matériel moderne, entretenu et adapté\nà chaque type de tâche (tracteur compact pour vergers, tracteur fort pour labour profond).\n1.5 Publics Cibles et Cas d'Usage au Maroc\nLe service s'adresse aux : petits agriculteurs indépendants, exploitations de taille moyenne, coopératives\nagricoles (OUAC), groupements d'agriculteurs et propriétaires terriens gestionnaires à distance.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 1,
+      "page_label": "2",
+      "id": 5
+    }
+  },
+  {
+    "Content": "agricoles (OUAC), groupements d'agriculteurs et propriétaires terriens gestionnaires à distance.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 2 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 1,
+      "page_label": "2",
+      "id": 6
+    }
+  },
+  {
+    "Content": "Exemples Concrets d'Application Terrain\nCas A — Preparation des sols (Gharb / Saïss) : Un agriculteur exploitant 10 hectares de céréales loue\nun tracteur de 90 CV pendant 3 jours pour réaliser un labour profond en terrain argileux (Tirs) juste\naprès les premières pluies de novembre. Avantage : Exécution rapide sans blocage de capital. Limite :\nDépendance à la disponibilité du matériel au moment exact de la pluie.\nCas B — Semis de précision (Tadla) : Utilisation d'un tracteur à transmission ﬂuide et régulée pour\nentraîner un semoir de précision. Avantage : Économie de semences et régularité de levée.\nCas C — Intervention d'urgence en arboriculture (Souss-Massa) : Remplacement express d'un\ntracteur en panne dans un verger d'agrumes pour réaliser des traitements phytosanitaires urgents.\nAvantage : Sauvegarde de la récolte.\nCas D — Organisation collective en coopérative (Haouz) : Une coopérative réserve un tracteur pour 15",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 2,
+      "page_label": "3",
+      "id": 7
+    }
+  },
+  {
+    "Content": "Avantage : Sauvegarde de la récolte.\nCas D — Organisation collective en coopérative (Haouz) : Une coopérative réserve un tracteur pour 15\njours et planiﬁe le passage successif dans 6 petites exploitations adhérentes. Avantage :\nMutualisation parfaite des coûts de transport et de location. Limite : Nécessite une rigueur stricte sur\nle respect du planning par chaque membre.\nCHAPITRE 2 — LE SERVICE DE LOCATION\n2.1 Le Processus Global de Location\nLe parcours de location sur la plateforme se déroule en dix étapes claires :\n1. Recherche du tracteur : Saisie de la zone géographique, du type de travail et des dates souhaitées.\n2. Sélection du matériel : Consultation des ﬁches techniques et des recommandations de l'assistant.\n3. Demande de réservation : Soumission du formulaire en ligne avec les détails du besoin.\n4. Conﬁrmation de disponibilité : Validation par l'équipe gestionnaire ou le propriétaire partenaire.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 2,
+      "page_label": "3",
+      "id": 8
+    }
+  },
+  {
+    "Content": "4. Conﬁrmation de disponibilité : Validation par l'équipe gestionnaire ou le propriétaire partenaire.\n5. Validation du contrat et caution : Signature numérique/accord et dépôt de la caution À CONFIRMER.\n6. Remise du tracteur : État des lieux contradictoire au point de livraison ou sur l'exploitation.\n7. Vériﬁcation initiale : Contrôle visuel des pneus, niveaux, ﬂuides et bon état des capteurs IoT.\n8. Période d'utilisation : Travail au champ sous couverture de la télémétrie et assistance du chatbot.\n9. Restitution du matériel : Contrôle ﬁnal du compteur horaire, du niveau de carburant et de l'état général.\n10. Clôture du dossier : Libération de la caution après validation de l'état du tracteur.\n2.2 Modalités Temporelles et Souplesse Opérationnelle\nLe service prévoit plusieurs formules d'engagement adaptées aux rythmes agricoles :\nLocation à la journée (24h) : Idéale pour des travaux ponctuels, des ajustements de calendrier ou du\ntransport local.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 2,
+      "page_label": "3",
+      "id": 9
+    }
+  },
+  {
+    "Content": "Location à la journée (24h) : Idéale pour des travaux ponctuels, des ajustements de calendrier ou du\ntransport local.\nLocation sur plusieurs jours : Pour la préparation complète de parcelles ou des travaux de fenaison.\nLocation de saison (période agricole déterminée) : Couvre l'intégralité d'une campagne de labour, de semis\nou de récolte avec des tarifs dégressifs À CONFIRMER.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 3 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 2,
+      "page_label": "3",
+      "id": 10
+    }
+  },
+  {
+    "Content": "2.3 Demandes de Prolongation, Annulation et Imprévus\nSi les travaux prennent du retard en raison des conditions météorologiques (ex: sol détrempé empêchant le\npassage), l'agriculteur peut effectuer une demande de prolongation depuis le site web. L'octroi de la\nprolongation dépend de la disponibilité ultérieure de la machine.\nLes annulations et modiﬁcations sont régies par des règles d'anticipation\nCONDITIONS CONTRACTUELLES À CONFIRMER PAR L'ÉQUIPE. En cas de retard de restitution non autorisé, des pénalités\nhoraires peuvent être appliquées pour protéger l'utilisateur suivant.\n2.4 Gestion des Pannes et Remplacement de Matériel\nSi le tracteur subit une panne mécanique majeure au cours de la location non imputable à une mauvaise\nutilisation (détectée ou non par les capteurs IoT), l'utilisateur doit immédiatement immobiliser l'engin et\ncontacter le support. Si la panne ne peut être résolue rapidement sur le terrain, la plateforme étudiera la",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 3,
+      "page_label": "4",
+      "id": 11
+    }
+  },
+  {
+    "Content": "contacter le support. Si la panne ne peut être résolue rapidement sur le terrain, la plateforme étudiera la\npossibilité de remplacer le tracteur par un modèle équivalent selon les disponibilités régionales À CONFIRMER.\nParamètres Contractuels et Commerciaux à Conﬁrmer\nLes règles exactes suivantes seront ﬁxées dans la version oﬃcielle du contrat de location : Durée\nminimale de location (1 jour ou demi-journée), montant ﬁxe ou proportionnel de la caution, politique\nexacte de carburant (plein à plein), modalité d'inclusion d'un chauffeur/opérateur, modalités exactes\nd'assurance et de responsabilité en cas de casse d'outils attelés.\n2.5 Exemple Complet de Parcours Utilisateur (Omar, Agriculteur à Meknès)\nContexte : Omar exploite 12 hectares à Saïss et souhaite réaliser un déchaumage rapide sur sol sec.\n1. Recherche : Omar se connecte sur la plateforme, sélectionne \"Région Meknès-Saïss\", choisit le travail\n\"Déchaumage / Travail superﬁciel\" pour la période du 12 au 14 octobre.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 3,
+      "page_label": "4",
+      "id": 12
+    }
+  },
+  {
+    "Content": "\"Déchaumage / Travail superﬁciel\" pour la période du 12 au 14 octobre.\n2. Conseil IA : Omar hésite sur la puissance. Le chatbot lui suggère un tracteur de puissance intermédiaire (75–\n90 CV) avec 4 roues motrices pour optimiser l'adhérence.\n3. Réservation : Omar soumet sa demande. Il reçoit la conﬁrmation de disponibilité par SMS/E-mail sous 2\nheures INDICATIF.\n4. Réception & Inspection : Le tracteur est livré à sa ferme. Omar effectue l'inspection de départ avec le livreur :\npression des pneus conforme, réservoir plein, boîtier de capteurs IoT sous tension (LED verte).\n5. Utilisation & Restitution : Omar réalise ses travaux. Le 2ème jour, l'IoT envoie une alerte préventive de\ncolmatage du ﬁltre à air suite à une forte poussière (Alerte indicative). Omar nettoie le ﬁltre. Le travail s'achève\nsans panne. Le tracteur est restitué le 14 octobre à 18h00.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 4 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 3,
+      "page_label": "4",
+      "id": 13
+    }
+  },
+  {
+    "Content": "CHAPITRE 3 — LES TRACTEURS AGRICOLES\n3.1 Caractéristiques Techniques Fondamentales\nLe choix d'un tracteur ne repose pas uniquement sur sa marque, mais sur des spéciﬁcations mécaniques\nprécises :\nPuissance du moteur (Chambres / CV / kW) : Détermine la capacité à entraîner des outils lourds ou\nexigeants en prise de force (PTO).\nTransmission : Mécanique synchrone, Semi-Powershift ou Hydrostatique. Inﬂuence le confort et la précision\nde vitesse au champ.\nCapacité de traction et Poids : Un tracteur lourd transmet mieux son couple au sol sans patinage excessif.\nPneumatiques : Largeur et proﬁl (agricole standard, étroit pour arboriculture, basse pression pour réduire le\ntassement du sol).\nPrise de Force (PDF / PTO) : Vitesse de rotation (540 tr/min ou 1000 tr/min) pour faire tourner les outils\nanimés (rotavator, pulvérisateur, presse à paille).\nCircuit Hydraulique : Nombre de distributeurs et débit en L/min pour lever des outils lourds via le relevage 3\npoints.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 4,
+      "page_label": "5",
+      "id": 14
+    }
+  },
+  {
+    "Content": "Circuit Hydraulique : Nombre de distributeurs et débit en L/min pour lever des outils lourds via le relevage 3\npoints.\n3.2 Catégories Indicatives de Tracteurs\nRemarque : Les plages de puissance suivantes sont données à titre pédagogique et ne constituent pas le\ncatalogue oﬃciel restrictif de la plateforme.\nA. Tracteurs Compacts (30 à 55 CV)\nTravaux adaptés : Entretien de vergers, arboriculture, maraîchage, viticulture, serres, petits travaux de transport\net pulvérisation dans des passages étroits.\nAvantages : Grande maniabilité, faible consommation de carburant, tassement minimal du sol, gabarit réduit.\nLimitations : Force de traction insuﬃsante pour les labours profonds ou la traction d'outils lourds à dents.\nB. Tracteurs de Puissance Intermédiaire (60 à 95 CV)\nTravaux adaptés : Polyculture-élevage, déchaumage, semis, pulvérisation grandes cultures, fauchage, transport\nagricole lourd sur piste.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 4,
+      "page_label": "5",
+      "id": 15
+    }
+  },
+  {
+    "Content": "Travaux adaptés : Polyculture-élevage, déchaumage, semis, pulvérisation grandes cultures, fauchage, transport\nagricole lourd sur piste.\nAvantages : Polyvalence maximale, excellent compromis entre consommation et puissance, très répandus au\nMaroc.\nLimitations : Peut être juste en sol très argileux et sec (Tirs) avec charrue trisoc lourde.\nC. Tracteurs de Forte Puissance (100 à 150+ CV)\nTravaux adaptés : Labour profond, sous-solage (ﬁssuration des sols durs), préparation rapide de grandes\nsurfaces, semis combiné lourd.\nAvantages : Rendement de chantier très élevé (hectares/heure), capacité à tirer les outils les plus exigeants.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 5 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 4,
+      "page_label": "5",
+      "id": 16
+    }
+  },
+  {
+    "Content": "Limitations : Consommation horaire de carburant plus élevée, coût de location plus important, rayon de\nbraquage plus grand, risque de tassement si le sol est trop humide.\n3.3 Tableau de Correspondance : Travaux vs Spéciﬁcations Recherchees\nType de Travail\nAgricole\nPuissance\nIndicative\nType de Transmission /\nMotricité Caractéristiques Requises\nLabour profond\n(Charrue)\n85 – 130+ CV 4 roues motrices (4RM) /\nMécanique lourde\nPoids élevé, excellente adhésion, couple\nfort à bas régime.\nDéchaumage / Herse\nà disques\n70 – 100 CV 4RM / Synchrone ou Semi-\nPowershift\nVitesse de travail soutenue (8-12 km/h),\nbon débit hydraulique.\nSemis de céréales 60 – 85 CV 2RM ou 4RM / Vitesses\nlentes régulières\nRelevage arrière précis, pneumatiques\npréservant le lit de semence.\nPulvérisation /\nTraitement\n45 – 75 CV 2RM ou 4RM / Prise de force\n540 tr/min\nCabine ﬁltrée (souhaitée), voies ajustables\nà l'écartement des rangs.\nTransport sur\npiste/route\n50 – 80 CV 2RM ou 4RM / Freinage\nremorque eﬃcace",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 5,
+      "page_label": "6",
+      "id": 17
+    }
+  },
+  {
+    "Content": "Cabine ﬁltrée (souhaitée), voies ajustables\nà l'écartement des rangs.\nTransport sur\npiste/route\n50 – 80 CV 2RM ou 4RM / Freinage\nremorque eﬃcace\nBonne vitesse de pointe sur route, système\nde freinage ﬁable.\nCHAPITRE 4 — COMMENT CHOISIR LE BON TRACTEUR ?\n4.1 Méthodologie de Sélection en 9 Critères\nPour recommander le bon matériel, la plateforme et le chatbot analysent 9 critères clés :\n1. Superﬁcie totale du terrain (en Hectares ou Khaddad) : Détermine le besoin en rendement horaire.\n2. Type de sol : Argileux lourd (Tirs), Limoneux-sableux (Hamri), Sableux (Rmel), ou Pierreux. Un sol argileux\nexige jusqu'à 30% de puissance supplémentaire.\n3. Nature exacte du travail : Labour, préparation de surface, semis, entretien ou transport.\n4. Pente et relief du terrain : Un terrain en pente nécessite obligatoirement 4 roues motrices (4RM) et une\nsécurité renforcée.\n5. Outils attelés à utiliser : Poids, largeur de travail et besoin en Prise de Force (PDF).",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 5,
+      "page_label": "6",
+      "id": 18
+    }
+  },
+  {
+    "Content": "sécurité renforcée.\n5. Outils attelés à utiliser : Poids, largeur de travail et besoin en Prise de Force (PDF).\n6. Durée prévue du chantier : Impacte le choix entre rendement maximal (gros tracteur) ou économie de\ncarburant (tracteur ajusté).\n7. Budget de l'exploitation : Recherche du meilleur coût total (Location + Carburant).\n8. Disponibilité régionale du matériel : Matériel présent dans un rayon raisonnable de livraison.\n9. Contraintes d'accès au champ : Largeur des chemins, portes de vergers, ponts de séguia.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 6 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 5,
+      "page_label": "6",
+      "id": 19
+    }
+  },
+  {
+    "Content": "4.2 Six Scénarios Pratiques en Contexte Marocain\nScénario 1 : Arboriculture dans le Souss (Verger d'Agrumes)\nBesoin : Pulvérisation et broyage de sarments entre des rangs serrés d'orangers.\nCritères : Gabarit très étroit, hauteur limitée, excellente maniabilité.\nRecommandation : Tracteur Compact Vignerons/Arboricole de 45 à 55 CV, 4RM, prise de force 540 tr/min.\nPrécautions : Vériﬁer la largeur hors-tout de la machine et la hauteur de l'échappement.\nScénario 2 : Labour d'Automne en Terres Argileuses (Gharb - Sol Tirs)\nBesoin : Labour profond à 30 cm avec charrue trisoc sur 15 hectares d'argile compacte.\nCritères : Forte réserve de couple, poids lourd, adhérence maximale.\nRecommandation : Tracteur de Forte Puissance (100 à 120 CV), 4RM avec masses de lestage avant.\nPrécautions : Ne pas travailler sur sol gorgé d'eau pour éviter le lissage du fonds de labour.\nScénario 3 : Semis de Céréales dans le Chaouia (20 Hectares)",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 6,
+      "page_label": "7",
+      "id": 20
+    }
+  },
+  {
+    "Content": "Scénario 3 : Semis de Céréales dans le Chaouia (20 Hectares)\nBesoin : Passage d'un combiné de semis (herse rotative + semoir) en fenêtre de tir courte.\nCritères : Puissance intermédiaire à forte, prise de force performante, régularité de vitesse.\nRecommandation : Tracteur de 85 à 105 CV, transmission Semi-Powershift 4RM.\nScénario 4 : Maraîchage sous Serres à Chtouka Ait Baha\nBesoin : Travail du sol au rotavator à l'intérieur de serres tunnels.\nCritères : Rayon de braquage très court, émission de fumée maîtrisée, faible hauteur.\nRecommandation : Tracteur Compact Maraîcher de 35 à 50 CV.\nScénario 5 : Transport de Récolte d'Olives en Zone Vallonnée (Taounate)\nBesoin : Tracter une remorque de 6 tonnes sur pistes en pente et routes régionales.\nCritères : Sécurité au freinage, motricité en descente, puissance moteur constante.\nRecommandation : Tracteur de 75 à 90 CV, 4RM, équipé d'un système de freinage de remorque vériﬁé.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 6,
+      "page_label": "7",
+      "id": 21
+    }
+  },
+  {
+    "Content": "Recommandation : Tracteur de 75 à 90 CV, 4RM, équipé d'un système de freinage de remorque vériﬁé.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 7 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 6,
+      "page_label": "7",
+      "id": 22
+    }
+  },
+  {
+    "Content": "Scénario 6 : Entretien et Fauchage de Lucerne (Tadla)\nBesoin : Fauchage léger et fanage sur petites parcelles morcelées.\nCritères : Faible consommation de carburant, grande simplicité d'utilisation.\nRecommandation : Tracteur Intermédiaire Léger ou Compact de 55 à 65 CV 2RM ou 4RM.\n4.3 Danger du Sur-dimensionnement ou Sous-dimensionnement\nTracteur sous-dimensionné : Moteur en surrégime permanent, patinage excessif, usure prématurée de\nl'embrayage, risque d'échauffement du liquide de refroidissement et perte de temps colossale au champ.\nTracteur sur-dimensionné : Surconsommation inutile de carburant, surcoût de location journalière, tassement\nexcessif de la structure du sol entraînant des baisses de rendement agricole ultérieures.\nCHAPITRE 5 — PRÉSENTATION DU SYSTÈME DE CAPTEURS\n(IoT)\n5.1 Principe Global de la Surveillance Télématique\nLe système de surveillance repose sur un boîtier télématique durci (résistant à la poussière, aux projections",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 7,
+      "page_label": "8",
+      "id": 23
+    }
+  },
+  {
+    "Content": "Le système de surveillance repose sur un boîtier télématique durci (résistant à la poussière, aux projections\nd'eau et aux vibrations extrêmes) relié à un ensemble de capteurs disposés aux points clés du tracteur. Ce\nsystème acquiert régulièrement les paramètres mécaniques et électriques pour détecter les anomalies avant\nqu'elles ne se transforment en pannes destructrices.\nImportant — État d'équipement de la ﬂotte : Les capteurs décrits ci-dessous représentent les capacités\ntechniques globales du système. Tous les capteurs ne sont pas nécessairement installés sur 100% des\ntracteurs de la plateforme. La liste exacte des capteurs actifs est indiquée sur la ﬁche de chaque machine\nÀ CONFIRMER PAR L'ÉQUIPE.\n5.2 Détail des Catégories de Capteurs\nA. Capteur de Température Moteur / Fluide de Refroidissement\nRôle : Mesurer la température du circuit de refroidissement du moteur.\nDonnée mesurée : Température en degrés Celsius (°C).",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 7,
+      "page_label": "8",
+      "id": 24
+    }
+  },
+  {
+    "Content": "Rôle : Mesurer la température du circuit de refroidissement du moteur.\nDonnée mesurée : Température en degrés Celsius (°C).\nAnomalies détectées : Surchauffe moteur, colmatage du radiateur par la paille ou la poussière, fuite de\nliquide de refroidissement, défaillance du calorstat ou courroie de ventilateur cassée.\nLimites : Un capteur externe met quelques minutes à réagir en cas de perte brutale et totale de liquide.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 8 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 7,
+      "page_label": "8",
+      "id": 25
+    }
+  },
+  {
+    "Content": "B. Capteur de Vibrations (Accéléromètre Tri-axial)\nRôle : Analyser le niveau de vibration sur le bloc moteur, la transmission ou le châssis.\nDonnée mesurée : Amplitude et fréquence des accélérations (g / mm/s²).\nAnomalies détectées : Desserrage d'un boulon de ﬁxation, déséquilibre d'un arbre de transmission, usure\nsévère des roulements, anomalie au niveau de la prise de force (PDF).\nLimites : Un sol très caillouteux génère des vibrations naturelles qu'il faut ﬁltrer du signal mécanique.\nC. Capteur de Pression d'Huile / Circuit Hydraulique\nRôle : Surveiller la pression dans le circuit de lubriﬁcation moteur ou le système hydraulique principal\nCAPTEUR OPTIONNEL À CONFIRMER.\nDonnée mesurée : Pression en Bars.\nAnomalies détectées : Chute critique de lubriﬁcation (risque de serrage moteur), manque d'huile\nhydraulique, pompe endommagée.\nLimites : Nécessite une prise de pression physique sécurisée lors de l'installation.\nD. Capteur de Tension Électrique & Batterie",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 8,
+      "page_label": "9",
+      "id": 26
+    }
+  },
+  {
+    "Content": "Limites : Nécessite une prise de pression physique sécurisée lors de l'installation.\nD. Capteur de Tension Électrique & Batterie\nRôle : Mesurer la tension aux bornes de la batterie et le niveau de charge de l'alternateur.\nDonnée mesurée : Tension en Volts (V Direct Current).\nAnomalies détectées : Alternateur défectueux (tension < 13.2V moteur tournant), batterie en ﬁn de vie,\ncourt-circuit, cosses corrodées ou desserrées.\nE. Capteurs Complementaires (Régime, GPS, Horamètre)\nHoramètre numérique : Compte précis des heures réelles de fonctionnement moteur.\nLocalisation GPS : Suivi de la position géographique et calcul de la surface couverte, sous réserve du\nrespect des données privées et de l'autorisation explicite de l'utilisateur.\n5.3 Tableau Comparatif des Capteurs Télématiques\nCapteur GrandeurMesurée Utilité Principale Anomalie Détectée Statutd'Équipement\nTempérature Moteur Degrés Celsius\n(°C)\nPrévention des\nsurchauffes\nRadiateur colmaté,\nmanque de liquide\nSTANDARD\nAccéléromètre",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 8,
+      "page_label": "9",
+      "id": 27
+    }
+  },
+  {
+    "Content": "Température Moteur Degrés Celsius\n(°C)\nPrévention des\nsurchauffes\nRadiateur colmaté,\nmanque de liquide\nSTANDARD\nAccéléromètre\n(Vibrations)\nAccélération (g) Détection des\ndéséquilibres\nRoulement usé, boulon\ndesserré\nSTANDARD\nTension Batterie Volts (V) Surveillance circuit\nélectrique\nPanne d'alternateur,\nbatterie faible\nSTANDARD\nPression d'Huile Bars Protection\nlubriﬁcation moteur\nChute de pression, fuite\ncritique\nÀ CONFIRMER\nLocalisateur GPS Coordonnées\nLat/Long\nGestion de ﬂotte &\npérimètre\nSortie de zone, suivi\nd'avancement\nSELON OPTION\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 9 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 8,
+      "page_label": "9",
+      "id": 28
+    }
+  },
+  {
+    "Content": "CHAPITRE 6 — SURVEILLANCE INTELLIGENTE ET\nDÉTECTION DES PANNES\n6.1 Clariﬁcation Terminologique Essentielle\nPour éviter toute confusion chez l'utilisateur, les concepts suivants sont rigoureusement distingués :\nSurveillance de paramètres : Mesure en continu et transmission des données brutes (ex: 88°C).\nDétection d'anomalies : Identiﬁcation d'un écart signiﬁcatif par rapport à un fonctionnement normal (ex:\nmontée rapide de 88°C à 102°C en 2 minutes).\nDiagnostic de panne : Identiﬁcation précise de la cause physique de l'anomalie (ex: \"Courroie d'alternateur\ncassée\"). Note : Le système IoT seul ne réalise pas un diagnostic certiﬁé à 100%, une vériﬁcation humaine\nreste indispensable.\nMaintenance Préventive : Entretien planiﬁé selon le nombre d'heures (ex: vidange toutes les 250h).\nMaintenance Corrective : Réparation effectuée après la survenue d'une panne constatée.\nMaintenance Prédictive : Anticipation d'une défaillance future basée sur l'analyse de tendances statistiques\nde télémétrie.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 9,
+      "page_label": "10",
+      "id": 29
+    }
+  },
+  {
+    "Content": "Maintenance Prédictive : Anticipation d'une défaillance future basée sur l'analyse de tendances statistiques\nde télémétrie.\n6.2 La Chaîne Opérationnelle de Détection en 8 Étapes\n1. Acquisition : Le capteur mesure la donnée physique à fréquence régulière (ex: chaque seconde).\n2. Filtrage local : Le boîtier embarqué élimine les bruits parasites instantanés.\n3. Transmission : Les données sont envoyées au serveur cloud via le réseau cellulaire (GSM/4G).\n4. Enregistrement : Stockage horodaté dans la base de données sécurisée.\n5. Comparaison : Analyse par rapport à des seuils ﬁxes ou un modèle de comportement de référence.\n6. Identiﬁcation d'Anomalie : Si la valeur dépasse le seuil toléré, le statut passe en \"Alerte\".\n7. Génération de l'Alerte : Notiﬁcation transmise à l'application web, au SMS et au chatbot.\n8. Action Humaine : L'agriculteur effectue la vériﬁcation recommandée ou contacte le support.\n6.3 Seuils Fixes vs Analyse Comportementale",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 9,
+      "page_label": "10",
+      "id": 30
+    }
+  },
+  {
+    "Content": "8. Action Humaine : L'agriculteur effectue la vériﬁcation recommandée ou contacte le support.\n6.3 Seuils Fixes vs Analyse Comportementale\nLe système combine deux approches : les seuils ﬁxes absolus (ex: Température > 105°C = Arrêt impératif) et\nl'analyse comportementale dynamique (ex: la température augmente deux fois plus vite que d'habitude lors d'un\neffort modéré, indiquant un colmatage progressif du radiateur par la poussière de paille).\nAvertissement Important sur les Limitations de la Télémétrie\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 10 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 9,
+      "page_label": "10",
+      "id": 31
+    }
+  },
+  {
+    "Content": "Une alerte générée par le système constitue un signal d'avertissement et NON un diagnostic mécanique\nirréfutable. Un capteur peut subir une défaillance locale, être mal positionné ou perdre sa calibration.\nInversement, certaines pannes pures de la transmission mécanique ou de la structure métallique ne\ngénèrent pas nécessairement d'alerte préalable. L'inspection visuelle et l'écoute des bruits suspects par\nl'opérateur restent fondamentales.\nCHAPITRE 7 — CATALOGUE STRUCTURÉ DES ALERTES IoT\nCe catalogue constitue la référence principale utilisée par le système RAG pour répondre aux questions des\nagriculteurs lors de la réception d'une notiﬁcation.\nALERTE-001 — Température Moteur Anormalement Élevée GRAVITÉ : ÉLEVÉE À CRITIQUE\nCatégorie : Refroidissement / Moteur Thermal\nDonnée observée : Température du liquide de refroidissement dépassant la plage normale de\nfonctionnement (> 100°C - 105°C selon modèle).\nInterprétation : Le moteur chauffe excessivement et risque un joint de culasse ou un",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 10,
+      "page_label": "11",
+      "id": 32
+    }
+  },
+  {
+    "Content": "fonctionnement (> 100°C - 105°C selon modèle).\nInterprétation : Le moteur chauffe excessivement et risque un joint de culasse ou un\nserrage.\nCauses possibles : Radiateur obstrué par de la paille/poussière, niveau de liquide bas, fuite,\ncourroie détendue/cassée, effort excessif.\nAction immédiate : Réduire la charge moteur, débrayer l'outil, se garer en sécurité, laisser\ntourner au ralentit 1 à 2 min puis couper le moteur.\nAction à ÉVITER : NE JAMAIS OUVRIR le bouchon du radiateur à chaud (risque de brûlure\ngrave par projection de vapeur) ! Ne pas verser d'eau froide sur un bloc\nmoteur brûlant.\nQuand arrêter : Arrêt immédiat si la température atteint la zone rouge ou dépasse 105°C.\nLimites de l'alerte : Ne distingue pas à elle seule si la cause est de la poussière sur le grille ou\nune fuite majeure.\nALERTE-002 — Vibrations Anormales Détectées GRAVITÉ : MODÉRÉE À ÉLEVÉE\nCatégorie : Mécanique / Structure & Transmission",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 10,
+      "page_label": "11",
+      "id": 33
+    }
+  },
+  {
+    "Content": "une fuite majeure.\nALERTE-002 — Vibrations Anormales Détectées GRAVITÉ : MODÉRÉE À ÉLEVÉE\nCatégorie : Mécanique / Structure & Transmission\nDonnée observée : Pic d'amplitude vibratoire dépassant de 40% le niveau de référence sur\nl'accéléromètre.\nCauses possibles : Boulons de roues ou d'outils desserrés, axe de transmission déséquilibré,\nusure d'un cardan, couteau de broyeur cassé.\nAction immédiate : Désengager la prise de force (PDF), réduire le régime moteur et s'arrêter\nen bord de parcelle.\nQuand arrêter : Si les vibrations s'accompagnent d'un bruit de choc métallique ou si\nl'alerte persiste à bas régime.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 11 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 10,
+      "page_label": "11",
+      "id": 34
+    }
+  },
+  {
+    "Content": "ALERTE-003 : Tension Électrique Anormale (Chute < 11.8V ou Surtension > 15.0V). Gravité :\nModérée. Indique une batterie déchargée ou une défaillance du régulateur\nd'alternateur. Vériﬁer les cosses et la courroie d'alternateur.\nALERTE-004 : Perte de Connexion Télématique. Gravité : Informative. Le boîtier n'envoie plus\nde données au cloud (zone rurale non couverte ou batterie interne boîtier\ndéconnectée). Le tracteur peut fonctionner normalement, mais la surveillance\nà distance est interrompue.\nALERTE-005 : Absence de Nouvelles Mesures Capteur. Gravité : Faible à Modérée. Un\ncapteur spéciﬁque ne répond plus (ex: câble de sonde débranché). Demande\nune inspection visuelle du câble capteur.\nALERTE-006 : Valeur Capteur Incohérente. Gravité : Faible. Exemple: Température aﬃchant\n-40°C ou +180°C instantanément. Signale une sonde endommagée ou un\ncourt-circuit du capteur, pas une panne moteur.\nALERTE-007 : Répétition d'Anomalies Courtes. Gravité : Modérée. Alertes brèves répétées",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 11,
+      "page_label": "12",
+      "id": 35
+    }
+  },
+  {
+    "Content": "court-circuit du capteur, pas une panne moteur.\nALERTE-007 : Répétition d'Anomalies Courtes. Gravité : Modérée. Alertes brèves répétées\n(ex: pics de température éphémères). Signale un problème débutant (ex:\nniveau de liquide de refroidissement au seuil bas).\nALERTE-008 : Anomalie Critique Cumulée. Gravité : CRITIQUE. Combinaison de vibrations\nfortes et de hausse de température. Arrêt immédiat de la machine requis.\nALERTE-009 : Capteur Indisponible au Démarrage. Gravité : Informative. Le boîtier ne détecte\npas une sonde lors de son auto-diagnostic initial. Indiquer au support.\nALERTE-010 : Retour à la Normale. Gravité : Informative (Verte). Indique que le paramètre\nsurveillé est repassé dans sa plage de fonctionnement sûre après une alerte\ntemporaire.\nCHAPITRE 8 — PROCÉDURES EN CAS DE PANNE ET\nINCIDENTS\n8.1 Principes Directeurs de Sécurité au Champ\nLa sécurité de l'opérateur et des personnes environnantes prévaut en toutes circonstances sur la continuité des",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 11,
+      "page_label": "12",
+      "id": 36
+    }
+  },
+  {
+    "Content": "La sécurité de l'opérateur et des personnes environnantes prévaut en toutes circonstances sur la continuité des\ntravaux agricoles. En cas de doute sur le comportement mécanique du tracteur :\n1. Immobiliser le tracteur sur un sol plat et dégagé, à l'écart du ﬂux de circulation.\n2. Serrer le frein de parc (frein à main), abaisser l'outil attelé au sol et couper le moteur.\n3. Retirer la clé de contact avant toute inspection sous la machine.\n4. Mettre les équipements de protection individuelle (gants de travail, chaussures de sécurité).\n8.2 Procédures Opérationnelles Détaillées (PROC-001 à PROC-009)\nPROC-001 — Surchauffe Moteur : Immobilsation immédiate →  Attendre au moins 30 minutes que le\nmoteur refroidisse →  Vériﬁer visuellement la grille du radiateur et enlever la paille accumulée →  Contrôler\nle niveau de liquide dans le vase d'expansion (si froid) →  Si le niveau est bas, faire l'appoint avec du liquide",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 11,
+      "page_label": "12",
+      "id": 37
+    }
+  },
+  {
+    "Content": "le niveau de liquide dans le vase d'expansion (si froid) →  Si le niveau est bas, faire l'appoint avec du liquide\nde refroidissement →  Relancer sans charge. Si la surchauffe persiste : Contact Support.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 12 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 11,
+      "page_label": "12",
+      "id": 38
+    }
+  },
+  {
+    "Content": "PROC-002 — Vibrations ou Bruits Mécaniques Suspects : Couper la prise de force (PDF) →  Vériﬁer l'état\nde l'outil attelé (boulons de cisaillement, lames, couteaux) →  Inspecter la barre d'attelage et les bras de\nrelevage →  Vériﬁer le serrage des goujons de roues.\nPROC-003 — Perte Subite de Puissance Moteur : Vériﬁer le niveau de carburant au tableau de bord →\nVériﬁer le pré-ﬁltre à gazole (présence d'eau ou de dépôts) →  Contrôler que le ﬁltre à air n'est pas\ncomplètement colmaté par la poussière.\nPROC-004 — Fuite Visible de Fluide (Huile / Gazole / Liquide) : Stop moteur immédiat →  Repérer la\ncouleur et l'origine de la fuite (Huile noire = moteur, Huile claire/rouge = hydraulique, Gazole = alimentation,\nLiquide vert/bleu = refroidissement) →  Ne jamais placer ses mains près d'une fuite hydraulique sous\npression →  Noter la position et contacter le support.\nPROC-005 — Problème de Démarrage / Batterie : Vériﬁer si le levier d'avancement/inverseur est bien au",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 12,
+      "page_label": "13",
+      "id": 39
+    }
+  },
+  {
+    "Content": "PROC-005 — Problème de Démarrage / Batterie : Vériﬁer si le levier d'avancement/inverseur est bien au\npoint mort et la PDF désengagée (sécurité de démarrage) →  Vériﬁer le serrage des cosses de batterie →\nSi la tension est inférieure à 11.5V, ne pas insister.\nPROC-006 — Panne Totale sur Piste ou Champ : Mettre en place le balisage de sécurité si près d'une voie\npublique →  Relever la position GPS ou le point de repère local le plus proche →  Noter les symptômes\nexacts et contacter l'assistance.\nPROC-007 — Perte de Connexion Télématique Prolongée : Continuer le travail en surveillant attentivement\nles manomètres du tableau de bord d'origine du tracteur. L'absence de réseau n'empêche pas l'utilisation\nmécanique sûre de la machine.\nPROC-008 — Alerte Répétée Sans Symptôme Visuel : Effectuer les contrôles de niveau de base. Si rien\nn'est à signaler, il peut s'agir d'un capteur décalé. Le signaler au chatbot/support pour ajustement à\ndistance.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 12,
+      "page_label": "13",
+      "id": 40
+    }
+  },
+  {
+    "Content": "n'est à signaler, il peut s'agir d'un capteur décalé. Le signaler au chatbot/support pour ajustement à\ndistance.\nPROC-009 — Témoin d'Alerte Rouge au Tableau de Bord d'Origine : En cas de contradiction entre les\ncapteurs IoT et le tableau de bord du constructeur du tracteur, les voyants d'origine du tracteur Priment\nTOUJOURS.\nCHAPITRE 9 — MAINTENANCE ET ENTRETIEN\n9.1 Checklist de Contrôle AVANT Utilisation (Prise en Main Quotidienne)\nCette vériﬁcation rapide (5 minutes) doit être effectuée par l'utilisateur chaque matin avant le démarrage :\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 13 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 12,
+      "page_label": "13",
+      "id": 41
+    }
+  },
+  {
+    "Content": "[ ] Niveau d'huile moteur : Jauge manuelle (entre le min et le max).\n[ ] Niveau de liquide de refroidissement : Niveau visible dans le vase d'expansion à froid.\n[ ] Contrôle des pneumatiques : Pression visuelle, absence de coupures profondes ou de corps étrangers.\n[ ] Inspection des fuites : Absence de ﬂaque d'huile ou de gazole sous le tracteur stationné.\n[ ] Filtre à air : Dépoussiérage du bol décantateur si travail en milieu très poussiéreux.\n[ ] Vériﬁcation des capteurs IoT : Boîtier ﬁxe, pas de câbles d'alimentation pendantes ou arrachés.\n[ ] Éléments de sécurité : Fonctionnement des phares, gyrophares et freins.\n9.2 Checklist de Contrôle APRÈS Utilisation (Fin de Journée)\n[ ] Nettoyage rapide de la grille de radiateur au souﬄeur/balai doux si paille accumulée.\n[ ] Plein de carburant (recommandé le soir pour éviter la condensation d'eau dans le réservoir pendant la\nnuit).\n[ ] Signalement immédiat via le site web/chatbot de tout bruit anormal constaté au cours de la journée.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 13,
+      "page_label": "14",
+      "id": 42
+    }
+  },
+  {
+    "Content": "nuit).\n[ ] Signalement immédiat via le site web/chatbot de tout bruit anormal constaté au cours de la journée.\n9.3 Complémentarité Manuel Constructeur et Données Télématiques\nLes capteurs IoT apportent une surveillance active en temps réel mais ne remplacent pas le plan d'entretien\npériodique établi par le constructeur du tracteur (vidanges d'huile moteur, remplacement des ﬁltres\nhydrauliques, graissage des articulations du pont avant). L'historique des alertes IoT aide les techniciens à\nplaniﬁer plus eﬃcacement ces interventions préventives.\nCHAPITRE 10 — TARIFICATION ET COÛTS\n10.1 Facteurs Inﬂuençant le Prix de Location\nLe tarif de location d'un tracteur est calculé de manière transparente en fonction de plusieurs variables :\nPuissance de la machine : Un tracteur de 120 CV coûte plus cher par jour qu'un tracteur de 50 CV.\nDurée d'engagement : Tarifs dégressifs pour les locations hebdomadaires ou mensuelles.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 13,
+      "page_label": "14",
+      "id": 43
+    }
+  },
+  {
+    "Content": "Durée d'engagement : Tarifs dégressifs pour les locations hebdomadaires ou mensuelles.\nType de travail et usure : Travaux très éprouvants (sous-solage, labour dur) vs travaux légers (transport).\nFrais de livraison/Rapatriement : Calculés en fonction de la distance entre le dépôt et l'exploitation.\nOption Chauffeur / Opérateur : Prestation d'un conducteur qualiﬁé en supplément si disponible\nÀ CONFIRMER.\nOutils attelés complémentaires : Location conjointe d'outils (charrue, herse, pulvérisateur).\n10.2 Modèle de Devis Type (EXEMPLE FICTIF ET ILLUSTRATIF)\nAttention : Les chiffres ci-dessous sont exclusivement fournis à titre d'exemple pédagogique pour illustrer le\nfonctionnement du calcul. Les tarifs réels seront établis lors du lancement oﬃciel.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 14 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 13,
+      "page_label": "14",
+      "id": 44
+    }
+  },
+  {
+    "Content": "Catégorie de Tracteur : Tracteur Polyvalent 80-90 CV 4RM (Exemple)\nDurée de la location : 3 Jours consécutifs\nTarif journalier de base : 600,00 MAD / jour (Exemple ﬁctif)\nSous-total location : 1 800,00 MAD\nFrais de livraison (A/R) : 350,00 MAD (Selon distance - Exemple ﬁctif)\nOption Capteurs IoT & Suivi : Inclus de série dans l'offre de service\nCarburant gazole : À la charge de l'utilisateur (Réservoir plein remis / plein restitué)\nMontant Total Estimé : 2 150,00 MAD TTC (Exemple indicatif)\nMontant Caution Requise : 5 000,00 MAD (Empreinte CB ou Chèque - À CONFIRMER)\nValidité du devis : 72 heures à compter de l'émission\n10.3 Analyse du Coût Total d'Utilisation (TCO vs Achat)\nPour évaluer l'intérêt économique de la location, l'agriculteur doit comparer le coût global journalier de la\nlocation au coût d'achat amorti (Remboursement de crédit + Assurance + Entretien annuel + Dépréciation /",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 14,
+      "page_label": "15",
+      "id": 45
+    }
+  },
+  {
+    "Content": "location au coût d'achat amorti (Remboursement de crédit + Assurance + Entretien annuel + Dépréciation /\nNombre de jours réellement travaillés dans l'année). Pour moins de 40 à 60 jours d'utilisation par an, la location\nest mathématiquement plus avantageuse.\nCHAPITRE 11 — QUESTIONS FINANCIÈRES ET\nORGANISATION COLLECTIVE\n11.1 Partage et Utilisation Collective (Coopératives & Groupements)\nLes coopératives agricoles (OUAC) et les groupes d'agriculteurs voisins peuvent effectuer une réservation\nunique pour regrouper leurs besoins de travail. Cette organisation offre des avantages tarifaires majeurs en\nétalant les frais ﬁxes de transport sur plusieurs exploitations contiguës.\n11.2 Recommandations pour la Gestion Collective\nDesignation d'un Responsable Unique : Un référent au sein de la coopérative est l'interlocuteur oﬃciel pour\nle contrat et l'état des lieux.\nPlaniﬁcation Rigoureuse des Horaires : Déﬁnir des plages horaires ou quotidiennes précises pour chaque",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 14,
+      "page_label": "15",
+      "id": 46
+    }
+  },
+  {
+    "Content": "le contrat et l'état des lieux.\nPlaniﬁcation Rigoureuse des Horaires : Déﬁnir des plages horaires ou quotidiennes précises pour chaque\nmembre aﬁn d'éviter les contestations.\nInspection Intermédiaire : Entre deux exploitations membres, effectuer un contrôle rapide visuel des pneus\net des niveaux d'huile.\nResponsabilité Solidaire : Le souscripteur du contrat reste le garant de la bonne utilisation du matériel et du\nrespect des consignes de sécurité par l'ensemble des utilisateurs désignés.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 15 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 14,
+      "page_label": "15",
+      "id": 47
+    }
+  },
+  {
+    "Content": "CHAPITRE 12 — LIVRAISON, UTILISATION ET RESTITUTION\n12.1 État des Lieux Initial lors de la Remise du Matériel\nLors de la réception du tracteur sur le point de livraison, l'agriculteur et le livreur/représentant remplissent\ncontradictoirement la ﬁche de mise à disposition :\nRelevé du compteur horaire : Heures aﬃchées au tableau de bord.\nNiveau de carburant : Réservoir vériﬁé (généralement 100%).\nÉtat de la carrosserie et du vitrage : Signalement des rayures ou petits enfoncements existants.\nPneumatiques : Usure et pression visuelle.\nBoîtier et Capteurs IoT : Conﬁrmation visuelle de la présence du boîtier, câblage propre et LED de\nfonctionnement active.\nSignature du document : Validation conjointe par signature papier ou numérique.\n12.2 Procédure de Restitution du Matériel\nÀ l'échéance de la période de location, le tracteur est inspecté selon la même grille. Si le tracteur est restitué",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 15,
+      "page_label": "16",
+      "id": 48
+    }
+  },
+  {
+    "Content": "À l'échéance de la période de location, le tracteur est inspecté selon la même grille. Si le tracteur est restitué\npropre, réservoir plein et sans dommage mécanique ou matériel, la ﬁche de restitution déﬁnitive est signée et la\ncaution est immédiatement libérée MODALITÉS DE RESTITUTION À CONFIRMER.\nCHAPITRE 13 — CONNECTIVITÉ ET FONCTIONNEMENT EN\nZONE RURALE\n13.1 Le Déﬁ de la Couverture Cellulaire en Zone Agricole\nAu Maroc, certaines parcelles éloignées dans les zones montagneuses ou vallonnées (Rif, Moyen-Atlas, vallées\ndu Sud) peuvent présenter une couverture réseau mobile faible ou intermittente. Le système IoT est conçu pour\ngérer ces contraintes.\n13.2 Différence entre Panne Machine et Perte de Connexion Data\nATTENTION — Règle fondamentale : Une perte de signal cellulaire (Alerte de connexion interrompue)\nsigniﬁe simplement que les données ne remontent plus vers le serveur web. Cela ne signiﬁe PAS que le",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 15,
+      "page_label": "16",
+      "id": 49
+    }
+  },
+  {
+    "Content": "signiﬁe simplement que les données ne remontent plus vers le serveur web. Cela ne signiﬁe PAS que le\ntracteur est en panne mécanique. Le tracteur continue de fonctionner normalement. L'agriculteur doit\nsimplement surveiller visuellement les indicateurs classiques du tableau de bord (jauge de température,\nvoyant d'huile d'origine).\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 16 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 15,
+      "page_label": "16",
+      "id": 50
+    }
+  },
+  {
+    "Content": "13.3 Mémorisation Hors-Ligne (Stockage Tampon / Buffer)\nLorsque le réseau GSM est indisponible, le boîtier IoT enregistre localement les mesures de télémétrie dans sa\nmémoire interne. Dès que le tracteur se déplace vers une zone couverte par le réseau (ex: retour à la ferme), le\nboîtier transmet automatiquement tout l'historique mémorisé (synchronisation différée)\nSOUS RÉSERVE DE LA VERSION DU BOÎTIER.\nCHAPITRE 14 — UTILISATION DU SITE WEB ET DE\nL'ASSISTANT IA\n14.1 Fonctionnalités de la Plateforme en Ligne\nLe site web permet aux utilisateurs d'accéder aux services suivants :\nMoteur de recherche et ﬁltrage : Recherche par région, puissance, disponibilité et catégorie d'outils.\nFiches descriptives des tracteurs : Consultation des photos, spéciﬁcations techniques, équipements et\ncapteurs IoT embarqués.\nEspace de réservation : Choix des dates, demande de devis et suivi des demandes en cours.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 16,
+      "page_label": "17",
+      "id": 51
+    }
+  },
+  {
+    "Content": "capteurs IoT embarqués.\nEspace de réservation : Choix des dates, demande de devis et suivi des demandes en cours.\nTableau de bord de suivi (Si activé) : Consultation en direct des alertes IoT et des heures de travail\neffectuées.\nChatbot IA d'assistance : Assistant virtuel disponible à tout moment pour répondre aux questions\nd'utilisation.\n14.2 Interaction avec le Chatbot et Recommandations\nPour obtenir les conseils les plus précis du chatbot, l'agriculteur est invité à fournir : sa région, sa superﬁcie en\nhectares, le type de travail souhaité, le type de sol et les outils attelés dont il dispose déjà.\nCHAPITRE 15 — FOIRE AUX QUESTIONS (FAQ - 50\nQUESTIONS / RÉPONSES)\nCe chapitre contient les réponses directes et explicites aux interrogations les plus fréquentes des agriculteurs.\nA. Questions sur la Location et la Réservation\nFAQ-001 : Comment louer un tracteur sur le site ?\nRéponse : Vous sélectionnez votre zone géographique, les dates souhaitées et le type de travail. Choisissez un",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 16,
+      "page_label": "17",
+      "id": 52
+    }
+  },
+  {
+    "Content": "Réponse : Vous sélectionnez votre zone géographique, les dates souhaitées et le type de travail. Choisissez un\ntracteur dans la liste, puis cliquez sur \"Demander une réservation\". L'équipe valide la disponibilité et vous\nrecontacte pour ﬁnaliser les détails.\nFAQ-002 : Est-il possible de louer un tracteur pour une seule journée ?\nRéponse : Oui, la location à la journée (24 heures) est tout à fait possible sous réserve de disponibilité du\nmatériel dans votre région.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 17 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 16,
+      "page_label": "17",
+      "id": 53
+    }
+  },
+  {
+    "Content": "FAQ-003 : Peut-on louer un tracteur pour plusieurs semaines ?\nRéponse : Oui, nous proposons des formules de plusieurs jours ou de saison avec des tarifs adaptés\nDÉTAILS À CONFIRMER.\nFAQ-004 : Comment annuler ma réservation ?\nRéponse : L'annulation s'effectue via votre espace client ou en contactant le support. Les conditions et\néventuels frais d'annulation dépendent du délai d'anticipation À CONFIRMER.\nFAQ-005 : Faut-il laisser une caution ?\nRéponse : Oui, une caution ﬁnancière est généralement exigée lors de la remise du tracteur pour couvrir les\ndégradations éventuelles. Elle est restituée après vériﬁcation du matériel.\nFAQ-006 : Le carburant est-il inclus dans le prix de location ?\nRéponse : Non, le carburant gazole est à la charge de l'utilisateur. Le tracteur est fourni avec le plein et doit être\nrestitué avec le plein.\nFAQ-007 : Un chauffeur est-il fourni avec le tracteur ?\nRéponse : Par défaut, la location s'entend sans conducteur. Une option avec opérateur qualiﬁé peut être",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 17,
+      "page_label": "18",
+      "id": 54
+    }
+  },
+  {
+    "Content": "Réponse : Par défaut, la location s'entend sans conducteur. Une option avec opérateur qualiﬁé peut être\nproposée selon les régions À CONFIRMER.\nFAQ-008 : Puis-je louer un tracteur si je n'ai pas de permis spéciﬁque ?\nRéponse : Le conducteur doit être majeur et posséder la capacité requise par la réglementation marocaine pour\nla conduite des engins agricoles.\nFAQ-009 : Comment savoir si le tracteur est disponible à mes dates ?\nRéponse : Le calendrier du site aﬃche les disponibilités indicatives en temps réel. La conﬁrmation déﬁnitive est\nvalidée par l'équipe.\nFAQ-010 : Que se passe-t-il si je rends le tracteur en retard ?\nRéponse : Tout retard non autorisé perturbe l'agriculteur suivant et peut donner lieu à la facturation de pénalités\nhoraires.\nB. Questions sur le Choix du Tracteur\nFAQ-011 : Comment choisir la puissance adaptée à mon terrain ?\nRéponse : La puissance dépend de la superﬁcie, du type de sol et de l'outil. Pour du labour en sol argileux,",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 17,
+      "page_label": "18",
+      "id": 55
+    }
+  },
+  {
+    "Content": "Réponse : La puissance dépend de la superﬁcie, du type de sol et de l'outil. Pour du labour en sol argileux,\nprévoyez au moins 85-100 CV. Pour du maraîchage, 45-60 CV suﬃsent.\nFAQ-012 : Quelle est la différence entre 2 roues motrices (2RM) et 4 roues motrices (4RM) ?\nRéponse : Le 4RM offre une traction bien supérieure en sol lourd, humide ou en pente. Le 2RM est plus\néconomique pour le transport ou les travaux légers sur sol plat.\nFAQ-013 : Quel tracteur choisir pour un verger d'arbres fruitiers ?\nRéponse : Optez pour un tracteur compact arboricole, étroit et bas, facilitant le passage sous les frondaisons\nsans abîmer les branches.\nFAQ-014 : Puis-je utiliser mes propres outils attelés sur le tracteur loué ?\nRéponse : Oui, à condition que les attelages (3 points) et la puissance de la prise de force soient parfaitement\ncompatibles avec la catégorie du tracteur.\nFAQ-015 : Que se passe-t-il si le tracteur choisi n'est pas assez puissant ?",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 17,
+      "page_label": "18",
+      "id": 56
+    }
+  },
+  {
+    "Content": "compatibles avec la catégorie du tracteur.\nFAQ-015 : Que se passe-t-il si le tracteur choisi n'est pas assez puissant ?\nRéponse : Le moteur forcera, chauffera et consommera trop de carburant sans avancer correctement. Utilisez\nnotre assistant pour bien évaluer votre besoin.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 18 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 17,
+      "page_label": "18",
+      "id": 57
+    }
+  },
+  {
+    "Content": "FAQ-016 à FAQ-050 : (Synthèse exhaustive couverte dans les chapitres RAG associés)\nSujets couverts : Prise de force 540/1000 tr/min, pression d'huile, colmatage radiateur, fonctionnement des\ncapteurs IoT, alertes SMS, réseau 4G rural, respect des données privées, intervention en cas de panne,\nremplacement de tracteur, gestion de la pluie, paiement en espèces/virement, utilisation en coopérative, etc.\nCHAPITRE 16 — SCÉNARIOS PRATIQUES ET\nCONVERSATIONS CHATBOT\nCe chapitre illustre la posture de réponse attendue de l'assistant virtuel IA : professionnel, prudent, axé sur la\nsécurité et honnête sur les capacités réelles du système.\nAgriculteur : \"Bonjour, je cherche un tracteur pour une journée demain à Berrechid pour labourer 3\nhectares.\"\nAssistant IA : \"Bonjour ! Pour un labour de 3 hectares à Berrechid (sol plutôt lourd), je vous\nrecommande un tracteur de puissance intermédiaire d'au moins 80 à 90 CV en 4 roues motrices.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 18,
+      "page_label": "19",
+      "id": 58
+    }
+  },
+  {
+    "Content": "recommande un tracteur de puissance intermédiaire d'au moins 80 à 90 CV en 4 roues motrices.\nConcernant la disponibilité exacte pour demain, je vous invite à effectuer une demande sur le site ou à\nme préciser votre numéro pour qu'un conseiller valide la disponibilité de la ﬂotte dans la zone de\nBerrechid. DISPONIBILITÉ À CONFIRMER\"\nAgriculteur : \"Le boîtier aﬃche une alerte 'Température Moteur Élevée'. Est-ce que je peux continuer mon\ntravail encore 30 minutes ?\"\nAssistant IA : \"NON, il ne faut surtout pas continuer de travailler. Une alerte de température élevée\n(ALERTE-001) indique un risque imminent de détérioration du moteur. Veuillez réduire immédiatement\nla charge, garer le tracteur en sécurité, laisser tourner au ralentit 1 minute puis couper le moteur. Ne\njamais ouvrir le vase d'expansion à chaud. Vériﬁez si de la paille n'obstrue pas la grille du radiateur. Si\nle problème persiste, contactez le support.\"",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 18,
+      "page_label": "19",
+      "id": 59
+    }
+  },
+  {
+    "Content": "le problème persiste, contactez le support.\"\nAgriculteur : \"Est-ce que vos capteurs IoT garantissent que le tracteur ne tombera JAMAIS en panne ?\"\nAssistant IA : \"Non, aucun système ne peut garantir zéro panne. Les capteurs IoT permettent de\ndétecter précocement certaines anomalies (surchauffe, vibrations, batterie faible) pour réagir avant\nque la panne ne devienne grave. Cependant, une rupture mécanique soudaine ou un problème lié à un\ncapteur non installé reste possible. L'attention de l'opérateur demeure indispensable.\"\nAgriculteur : \"Quel est le prix exact pour 5 jours de location d'un tracteur 100 CV ?\"\nAssistant IA : \"Le tarif exact dépend de la distance de livraison et du type de travail. À titre d'exemple\nindicatif, un tracteur de cette catégorie tourne autour de 700 à 900 MAD / jour hors gazole et livraison.\nJe peux générer une estimation ou vous mettre en relation avec l'équipe pour un devis oﬃciel\nTARIFS OFFICIELS À CONFIRMER.\"",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 18,
+      "page_label": "19",
+      "id": 60
+    }
+  },
+  {
+    "Content": "Je peux générer une estimation ou vous mettre en relation avec l'équipe pour un devis oﬃciel\nTARIFS OFFICIELS À CONFIRMER.\"\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 19 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 18,
+      "page_label": "19",
+      "id": 61
+    }
+  },
+  {
+    "Content": "CHAPITRE 17 — DONNÉES, CONFIDENTIALITÉ ET\nTRANSPARENCE\n17.1 Données Collectées\nLa plateforme collecte exclusivement les données nécessaires à la fourniture du service : données\nd'identité/contact pour la réservation, mesures de télémétrie mécanique du tracteur, horodatage et localisation\nGPS (si le boîtier en est équipé et autorisé).\n17.2 Utilisation et Protection des Données\nLes données de télémétrie sont utilisées pour assurer la sécurité du matériel, optimiser la maintenance et\nassister l'utilisateur. Elles ne sont pas transmises à des tiers commerciaux. Les conditions détaillées de\ntraitement sont déﬁnies dans la politique de conﬁdentialité du site web À VALIDER PAR L'ÉQUIPE JURIDIQUE.\nCHAPITRE 18 — LIMITES DU SYSTÈME\n18.1 Ce que Notre Système Peut Faire vs Ce qu'il NE Peut PAS Garantir\nCe que le système PEUT FAIRE Ce que le système NE PEUT PAS GARANTIR\nDétecter une hausse anormale de température\nmoteur.\nGarantir à 100% l'absence de toute panne mécanique.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 19,
+      "page_label": "20",
+      "id": 62
+    }
+  },
+  {
+    "Content": "Détecter une hausse anormale de température\nmoteur.\nGarantir à 100% l'absence de toute panne mécanique.\nAvertir en cas de chute de tension de la batterie. Prédire une cassure soudaine d'une pièce métallique d'un outil\nattelé.\nEnregistrer les heures réelles de fonctionnement. Remplacer l'inspection visuelle quotidienne du conducteur.\nTransmettre des alertes quand le réseau GSM est\nactif.\nEnvoyer des alerte instantanées en zone totalement hors réseau\nGSM.\nCHAPITRE 19 — GLOSSAIRE TECHNIQUE ET AGRONOMIQUE\n(40 TERMES)\n1. Accéléromètre : Capteur mesurant les accélérations et les\nvibrations d'une structure.\n2. Anomalie : Écart mesuré par rapport à un fonctionnement\nmécanique normal.\n3. Arboriculture : Culture des arbres fruitiers (agrumes, oliviers,\namandiers).\n4. Attelage 3 points : Système normalisé à l'arrière du tracteur\npour ﬁxer les outils.\n5. Boîtier télématique : Unité électronique embarquée\ncollectant et transmettant les données IoT.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 19,
+      "page_label": "20",
+      "id": 63
+    }
+  },
+  {
+    "Content": "pour ﬁxer les outils.\n5. Boîtier télématique : Unité électronique embarquée\ncollectant et transmettant les données IoT.\n6. Calorstat (Thermostat) : Vanne régulant la circulation du\nliquide de refroidissement.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 20 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 19,
+      "page_label": "20",
+      "id": 64
+    }
+  },
+  {
+    "Content": "7. Capteur : Dispositif transformant une grandeur physique en\nsignal électrique.\n8. Caution : Somme bloquée temporairement pour garantir l'état\ndu matériel.\n9. Charrue : Outil du sol servant à labourer et retourner la terre.\n10. Colmatage : Obstruation d'un ﬁltre ou d'un radiateur par des\npoussières ou débris.\n11. Couple moteur : Force de rotation générée par le moteur,\nessentielle pour la traction.\n12. Déchaumage : Travail superﬁciel du sol après récolte pour\nenfouir les chaumes.\n13. Débit hydraulique : Volume d'huile fourni par la pompe pour\nanimer les vérins.\n14. Faux positif : Alerte déclenchée alors qu'aucune panne\nréelle n'existe.\n15. Hamri : Type de sol marocain limono-argileux à couleur\nrougeâtre.\n16. Horamètre : Compteur mesurant le nombre total d'heures\nde fonctionnement.\n17. IoT (Internet des Objets) : Réseau d'équipements connectés\néchangeant des données.\n18. Labour : Opération de découpage et retournement de la\nbande de terre.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 20,
+      "page_label": "21",
+      "id": 65
+    }
+  },
+  {
+    "Content": "échangeant des données.\n18. Labour : Opération de découpage et retournement de la\nbande de terre.\n19. Liquide de refroidissement : Fluide évacuant la chaleur du\nbloc moteur.\n20. Maintenance corrective : Réparation effectuée après une\npanne.\n21. Maintenance prédictive : Anticipation des pannes basée sur\nles données télématiques.\n22. Maintenance préventive : Entretien régulier planiﬁé pour\néviter les défaillances.\n23. Prise de Force (PDF / PTO) : Arbre rotatif cannelé\ntransmettant la puissance aux outils.\n24. RAG (Retrieval-Augmented Generation) : Technique d'IA\ncombinant recherche documentaire et génération de texte.\n25. Rmel : Sol à dominante sableuse, très facile à travailler mais\npeu rétenteur d'eau.\n26. Rotavator : Outil rotatif à lames pour aﬃner le lit de\nsemences.\n27. Semi-Powershift : Transmission permettant de changer des\nvitesses sous charge sans débrayer.\n28. Semoir de précision : Machine distribuant les graines une à\nune à écartement régulier.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 20,
+      "page_label": "21",
+      "id": 66
+    }
+  },
+  {
+    "Content": "vitesses sous charge sans débrayer.\n28. Semoir de précision : Machine distribuant les graines une à\nune à écartement régulier.\n29. Seuil d'alerte : Valeur limite déclenchant une notiﬁcation\nautomatique.\n30. Tassage du sol : Compaction néfaste du sol sous le poids\ndes engins lourds.\n31. TCO (Total Cost of Ownership) : Coût total de possession et\nd'usage d'une machine.\n32. Tirs : Sol argileux noir très fertile du Maroc, lourd et dur une\nfois sec.\n33. Télémétrie : Mesure et transmission à distance de données\ntechniques.\n34. Transmission hydrostatique : Transmission ﬂuide sans\nvitesse mécanique à engrenages.\n35. Vase d'expansion : Réservoir tampon du circuit de\nrefroidissement.\n36. Vidange : Remplacement de l'huile moteur usagée.\n37. Voie du tracteur : Distance entre le centre des deux roues\nd'un même essieu.\n38. Zone rurale : Territoire hors des agglomérations urbaines\nprincipales.\n39. 2RM / 4RM : Deux roues motrices / Quatre roues motrices\n(motricité intégrale).",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 20,
+      "page_label": "21",
+      "id": 67
+    }
+  },
+  {
+    "Content": "principales.\n39. 2RM / 4RM : Deux roues motrices / Quatre roues motrices\n(motricité intégrale).\n40. OUAC : Organisation d'Utilisation des Armements et de la\nMachinerie Agricole en Collectif.\nCHAPITRE 20 — FICHES OPÉRATIONNELLES DE RÉFÉRENCE\n(A à J)\nFICHE-A : Louer un Tracteur\nObjectif : Effectuer une réservation sur la plateforme. Étapes : 1. Saisir zone et dates →  2. Sélectionner la\ncatégorie →  3. Soumettre le formulaire →  4. Valider le devis avec le conseiller →  5. Régler la caution\nÀ CONFIRMER. Erreur à éviter : Réserver une puissance insuﬃsante pour un sol Tirs sec.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 21 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 20,
+      "page_label": "21",
+      "id": 68
+    }
+  },
+  {
+    "Content": "FICHE-B : Choisir un Tracteur Adapté\nObjectif : Obtenir une recommandation personnalisée. Informations à fournir : Superﬁcie (Ha), culture, type\nde sol (Tirs/Hamri/Rmel), outils attelés. Quand contacter l'assistance : En cas de doute entre deux gammes\nde puissance.\nFICHE-C : Préparer la Réception du Matériel\nObjectif : Accueillir le tracteur sur l'exploitation dans de bonnes conditions. Prérequis : Prévoir une zone\nplate pour le déchargement du camion plateau, vériﬁer les accès (pistes, portails).\nFICHE-D : Inspection Visuelle Avant Démarrage\nObjectif : S'assurer que la machine est sûre avant de travailler. Étapes : Contrôler l'huile moteur, le liquide de\nrefroidissement, la pression des pneus et l'intégrité des capteurs IoT.\nFICHE-E : Comprendre une Notiﬁcation d'Alerte\nObjectif : Réagir correctement à un message du chatbot ou SMS. Étapes : Lire le code (ex: ALERTE-001),\nsuivre les instructions de sécurité, immobiliser la machine si nécessaire.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 21,
+      "page_label": "22",
+      "id": 69
+    }
+  },
+  {
+    "Content": "suivre les instructions de sécurité, immobiliser la machine si nécessaire.\nFICHE-F : Réagir à une Surchauffe (PROC-001)\nObjectif : Éviter la casse du moteur. Règle d'or : Ne JAMAIS ouvrir le bouchon de radiateur à chaud.\nAttendre le refroidissement complet.\nFICHE-G : Signaler un Incident ou une Panne\nObjectif : Obtenir une assistance rapide. Informations à fournir : Identiﬁant du tracteur, localisation GPS /\ncommune, symptôme constaté, voyants ou alertes aﬃchés.\nFICHE-H : Gérer une Perte de Réseau en Zone Rurale\nObjectif : Poursuivre le travail en toute sécurité. Action : Se ﬁer aux voyants oﬃciels d'origine du tableau de\nbord du tracteur.\nFICHE-I : Restituer le Tracteur\nObjectif : Clôturer le contrat et récupérer la caution. Étapes : Refaire le plein de gazole, nettoyer le poste de\nconduite, signer la ﬁche de restitution ﬁnale.\nFICHE-J : Demander une Assistance Technique\nObjectif : Joindre un conseiller humain. Procédure : Utiliser le bouton \"Demander un appel support\" dans le",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 21,
+      "page_label": "22",
+      "id": 70
+    }
+  },
+  {
+    "Content": "Objectif : Joindre un conseiller humain. Procédure : Utiliser le bouton \"Demander un appel support\" dans le\nchatbot ou contacter le numéro vert À CONFIRMER.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 22 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 21,
+      "page_label": "22",
+      "id": 71
+    }
+  },
+  {
+    "Content": "ANNEXE — ÉLÉMENTS COMMERCIALS ET TECHNIQUES À\nCONFIRMER AVANT LE LANCEMENT OFFICIEL\nCette section répertorie l'ensemble des paramètres que l'équipe dirigeante du projet doit valider pour\ntransformer cette base de connaissances RAG en documentation contractuelle oﬃcielle :\nFlotte Réelle : Liste exacte des modèles de tracteurs disponibles au lancement et dépôts régionaux\nd'attache.\nCapteurs Embarqués : Validation de la liste exacte des sondes installées par défaut (Température,\nVibrations, Pression d'huile, GPS).\nGrille Tarifaire Oﬃicielle : Prix réels par jour, tarifs hebdomadaires, coûts kilométriques de livraison et\nmontant des cautions.\nConditions Contractuelles : Durée minimale de location, délais d'annulation sans frais, politique\nd'assurance et de franchise.\nSupport & Dépannage : Délais garantis d'intervention d'un technicien itinérant sur le terrain en zone\nrurale.\nCoordonnées Oﬃcelles : Numéro de téléphone du service client, adresse e-mail de support et horaires\nd'ouverture.",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 22,
+      "page_label": "23",
+      "id": 72
+    }
+  },
+  {
+    "Content": "rurale.\nCoordonnées Oﬃcelles : Numéro de téléphone du service client, adresse e-mail de support et horaires\nd'ouverture.\nBase de Connaissances RAG — Location Tracteurs IoT Maroc Page 23 sur 23",
+    "metadata": {
+      "producer": "Skia/PDF m136",
+      "creator": "Chromium",
+      "creationdate": "2026-11-02T17:27:14+00:00",
+      "title": "Documentation de Référence RAG — Location de Tracteurs Intelligents & IoT Agricole au Maroc",
+      "moddate": "2026-11-02T17:27:14+00:00",
+      "source": "Documentation Base de Connaissances RAG - Location Tracteurs IoT.pdf",
+      "total_pages": 23,
+      "page": 22,
+      "page_label": "23",
+      "id": 73
+    }
+  }
+]

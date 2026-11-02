@@ -1,0 +1,40 @@
+import os 
+from retrieval.objects import QuestionRequest
+from models.models import expansion_llm,answer_llm,embeddings,reranker 
+from prompts.expansion import expansion_prompt
+from prompts.answer import answer_prompt
+from pymongo import MongoClient
+from langchain_mongodb import MongoDBAtlasVectorSearch
+from langchain_community.retrievers import BM25Retriever
+from langchain_core.documents import Document
+from dotenv import load_dotenv,find_dotenv
+
+_=load_dotenv(find_dotenv())
+MONGODB_URI=os.getenv("MONGODB_URI")
+client=MongoClient(MONGODB_URI)
+db=client["tractor_rag"]
+collection=db["chunks"]
+vector_store = MongoDBAtlasVectorSearch(
+    collection=collection,
+    embedding=embeddings,              # Your HuggingFaceEmbeddings instance
+    index_name="vector_index",         # Name of your Atlas Vector Search index
+    text_key="Content",                  # Document field containing the text chunk
+    embedding_key="embedding"          # Document field containing the vector
+)
+# We continue by loading our docs:
+try:
+    docs=[]
+    results=collection.find({})
+    for result in results:
+        docs.append(result)
+except Exception as e:
+    print(f"Error{e}")
+documents=[Document(
+    page_content=record["Content"],
+    metadata={
+        **record["metadata"],
+        "chunk_id": record["metadata"]["id"]
+    }) for record in docs]
+
+bm25_retriever=BM25Retriever.from_documents(documents,
+                                            k=5)
