@@ -1,7 +1,10 @@
 expansion_prompt = """
 Tu reformules des questions pour un moteur de recherche RAG.
 
-reformule la question avec un peu plus de keywords pour aider le vector_search maximum output:2 lignes!.
+Génère exactement 3 variantes courtes de la question.
+Ne réponds JAMAIS à la question.
+Aucune explication, aucun titre, aucun Markdown.
+Une seule question par ligne, maximum 10 mots.
 
 Question : {question}
 """

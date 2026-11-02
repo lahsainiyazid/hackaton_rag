@@ -45,8 +45,17 @@ hybrid=EnsembleRetriever(retrievers=[dense,sparse],weights=[0.4,0.6])
 
 def ask_rag_question(request:QuestionRequest):
     expansion_call=expansion_llm.invoke([HumanMessage(content=request.question),SystemMessage(content=expansion_prompt)])
-    expansion_result=expansion_call.content.strip()
-    print(expansion_result)
+    expanded_query=expansion_call.content.strip()
+    results=hybrid.invoke(expanded_query)
+    pairs = [(request.question, doc.page_content) for doc in results]
+    scores = reranker.predict(pairs)
+    ranked_docs = [doc for _, doc in sorted(zip(scores, results), key=lambda x: x[0], reverse=True)]
+    final_docs = ranked_docs[:5]
+    formatted_prompt=answer_prompt.format(question=request.question,
+                         expanded_query=expanded_query,
+                         context=final_docs)
+    answer=answer_llm.invoke([SystemMessage(content=formatted_prompt),HumanMessage(content=request.question)]).content.strip()
+    print(answer)
 
 
 if __name__=="__main__":
