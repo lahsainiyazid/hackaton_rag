@@ -1,6 +1,6 @@
 import os 
 from retrieval.objects import QuestionRequest
-from models.models import expansion_llm,answer_llm,embeddings,reranker 
+from models.models import expansion_llm,answer_llm,embeddings,reranker
 from prompts.expansion import expansion_prompt
 from prompts.answer import answer_prompt
 from pymongo import MongoClient
@@ -8,6 +8,7 @@ from langchain_mongodb import MongoDBAtlasVectorSearch
 from langchain_community.retrievers import BM25Retriever
 from langchain_classic.retrievers import EnsembleRetriever
 from langchain_core.documents import Document
+from langchain_core.messages import HumanMessage,SystemMessage
 from dotenv import load_dotenv,find_dotenv
 
 _=load_dotenv(find_dotenv())
@@ -41,3 +42,13 @@ sparse=BM25Retriever.from_documents(documents,
                                             k=5)
 dense=vector_store.as_retriever(search_kwars={"k":5})
 hybrid=EnsembleRetriever(retrievers=[dense,sparse],weights=[0.4,0.6])
+
+def ask_rag_question(request:QuestionRequest):
+    expansion_call=expansion_llm.invoke([HumanMessage(content=request.question),SystemMessage(content=expansion_prompt)])
+    expansion_result=expansion_call.content.strip()
+    print(expansion_result)
+
+
+if __name__=="__main__":
+    test=QuestionRequest(question="Comment louer un tracteur")
+    ask_rag_question(test)

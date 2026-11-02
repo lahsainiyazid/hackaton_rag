@@ -3,7 +3,6 @@ from dotenv import load_dotenv,find_dotenv
 from langchain_huggingface import HuggingFaceEmbeddings
 from sentence_transformers import CrossEncoder
 _=load_dotenv(find_dotenv())
-
 expansion_llm=ChatGroq(model="openai/gpt-oss-20b",temperature=0)
 answer_llm=ChatGroq(model="openai/gpt-oss-120b",temperature=0)
 embeddings = HuggingFaceEmbeddings(
