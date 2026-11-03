@@ -169,7 +169,7 @@ def send_recommendation(state:AgentState):
     "text": recom}
     requests.post(url,json=payload)
 
-def send_financial_and_plan(state:AgentState):
+def financial_and_plan(state:AgentState):
     question=state["question"]
     context=state["question"]
     products=state["products"]
@@ -182,3 +182,20 @@ def send_financial_and_plan(state:AgentState):
     return {
         "financial_plan":financial_plan
     }
+
+
+def send_financial_and_plan(state:AgentState):
+
+    """
+    Here is a small python function to send financial_and_plan
+    """
+    plan=(state.get("financial_plan"))
+    url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
+    for i in range (0,len(plan),3500):
+        chunk=plan[i:i+3500]
+        payload = {
+             "chat_id": CHAT_ID,
+            "text": chunk}
+        requests.post(url,json=payload)
+
+
