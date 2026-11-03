@@ -7,4 +7,5 @@ class AgentState(TypedDict):
     documents:list[Document]
     products:list[dict[str,str]]
     context:str 
-    answer:str 
+    answer:str
+    recommendation:str

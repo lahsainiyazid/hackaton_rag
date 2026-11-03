@@ -11,6 +11,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from src.utils.objects import AgentState
 from src.utils.model import llm, embeddings, reranker
 from src.utils.prompts.expansion_prompt import expansion_prompt
+from src.utils.prompts.recommendation_prompt import recommendation_prompt
 from src.utils.prompts.answer_prompt import answer_prompt
 
 
@@ -139,4 +140,15 @@ def scrape_bourse_agro(state:AgentState)->list[dict[str,str]]:
     }
 
 
+def recommendation(state:AgentState)->str:
+    question=state["question"]
+    context=state["context"]
+    products=state["products"]
+    recom_prompt=recommendation_prompt.format(
+   question=question,
+        products=products,
+        context=context)
+    response=llm.invoke([HumanMessage(content="Generate an answer in arabic"),SystemMessage(content=recom_prompt)]).content.strip()
+
+    return {"recommendation":response}
 
