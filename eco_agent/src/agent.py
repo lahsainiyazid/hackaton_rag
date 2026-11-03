@@ -1,6 +1,6 @@
 from src.utils.nodes import retrieval
 from src.utils.objects import AgentState
-from langgraph import StateGraph,START,END 
+from langgraph.graph  import StateGraph,START,END 
 from dotenv import load_dotenv,find_dotenv 
 _=load_dotenv(find_dotenv())
 

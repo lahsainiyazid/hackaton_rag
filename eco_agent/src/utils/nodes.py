@@ -20,7 +20,7 @@ def retrieval(state: AgentState):
 
     client = MongoClient(os.environ["MONGODB_URI"])
     try:
-        collection = client["tractor_rag"]["agent_eco"]
+        collection = client["tractor_rag"]["eco_agent"]
 
         # Load documents for BM25
         records = list(collection.find({}))
@@ -28,11 +28,11 @@ def retrieval(state: AgentState):
 
         documents = [
             Document(
-                page_content=record["Content"],
+                page_content=record["text"],
                 metadata=record.get("metadata", {})
             )
             for record in records
-            if record.get("Content")
+            if record.get("text")
         ]
 
         if not documents:
@@ -43,7 +43,7 @@ def retrieval(state: AgentState):
             collection=collection,
             embedding=embeddings,
             index_name="vector_index",
-            text_key="Content",
+            text_key="text",
             embedding_key="embedding"
         )
 
@@ -59,7 +59,7 @@ def retrieval(state: AgentState):
 
         hybrid = EnsembleRetriever(
             retrievers=[dense, sparse],
-            weights=[0.4, 0.6]
+            weights=[0.6, 0.4]
         )
 
         # Query expansion
