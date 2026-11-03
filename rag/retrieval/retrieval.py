@@ -40,7 +40,7 @@ documents=[Document(
 
 sparse=BM25Retriever.from_documents(documents,
                                             k=5)
-dense=vector_store.as_retriever(search_kwars={"k":5})
+dense=vector_store.as_retriever(search_kwargs={"k":5})
 hybrid=EnsembleRetriever(retrievers=[dense,sparse],weights=[0.4,0.6])
 
 def ask_rag_question(request:QuestionRequest):
@@ -55,8 +55,7 @@ def ask_rag_question(request:QuestionRequest):
                          expanded_query=expanded_query,
                          context=final_docs)
     answer=answer_llm.invoke([SystemMessage(content=formatted_prompt),HumanMessage(content=request.question)]).content.strip()
-    print(answer)
-
+    return answer
 
 if __name__=="__main__":
     test=QuestionRequest(question="Comment louer un tracteur")
