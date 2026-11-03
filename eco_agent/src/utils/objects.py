@@ -1,5 +1,5 @@
 from typing import TypedDict 
-from langchain_core.document import Document 
+from langchain_core.documents import Document 
 
 class AgentState(TypedDict):
     question:str 

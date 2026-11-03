@@ -1,8 +1,8 @@
 import os 
-from objects import AgentState
-from model import llm
-from prompts.expansion import expansion_prompt
-from prompts.answer import answer_prompt
+from src.utils.objects import AgentState
+from src.utils.model import llm
+from src.utils.prompts.expansion_prompt import expansion_prompt
+from src.utils.prompts.answer_prompt import answer_prompt
 from pymongo import MongoClient
 from langchain_mongodb import MongoDBAtlasVectorSearch
 from langchain_community.retrievers import BM25Retriever
@@ -47,7 +47,7 @@ def retrieval(state:AgentState):
     hybrid=EnsembleRetriever(retrievers=[dense,sparse],weights=[0.4,0.6])
 
 
-    expansion_call=expansion_llm.invoke([HumanMessage(content=request.question),SystemMessage(content=expansion_prompt)])
+    expansion_call=expansion_llm.invoke([HumanMessage(content=state.question),SystemMessage(content=expansion_prompt)])
     expanded_query=expansion_call.content.strip()
     results=hybrid.invoke(expanded_query)
     pairs = [(request.question, doc.page_content) for doc in results]
@@ -58,5 +58,12 @@ def retrieval(state:AgentState):
                          expanded_query=expanded_query,
                          context=final_docs)
     answer=answer_llm.invoke([SystemMessage(content=formatted_prompt),HumanMessage(content=request.question)]).content.strip()
+    return {
+        "question":question,
+        "expanded_query":expanded_query,
+        "documents":documents, 
+        "context":final_docs,
+        "answer":answer
+    }
  
 
