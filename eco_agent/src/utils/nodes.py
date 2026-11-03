@@ -1,7 +1,6 @@
-
-
 import os
-
+import cloudscraper 
+from bs4 import BeautifulSoup
 from pymongo import MongoClient
 from langchain_mongodb import MongoDBAtlasVectorSearch
 from langchain_community.retrievers import BM25Retriever
@@ -119,3 +118,25 @@ def retrieval(state: AgentState):
 
     finally:
         client.close()
+
+
+
+def scrape_bourse_agro(state:AgentState)->list[dict[str,str]]:
+    url="https://bourseagro.com/prix/casa"
+    scraper=cloudscraper.create_scraper()
+    response=scraper.get(url)
+    response.raise_for_status()
+    soup=BeautifulSoup(response.text,"html.parser")
+    products=[]
+    for row in soup.select("tr[data-nom][data-prix]"):
+        products.append({
+        "name": row["data-nom"],
+        "category": row["data-cat"],
+        "price": float(row["data-prix"])
+    })
+    return {
+        "products":products
+    }
+
+
+
