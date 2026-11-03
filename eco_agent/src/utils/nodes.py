@@ -1,5 +1,6 @@
 import os
 import cloudscraper 
+from dotenv import load_dotenv,find_dotenv
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
 from langchain_mongodb import MongoDBAtlasVectorSearch
@@ -14,6 +15,7 @@ from src.utils.prompts.expansion_prompt import expansion_prompt
 from src.utils.prompts.recommendation_prompt import recommendation_prompt
 from src.utils.prompts.answer_prompt import answer_prompt
 
+_=load_dotenv(find_dotenv())
 
 def retrieval(state: AgentState):
     question = state["question"]
@@ -151,4 +153,16 @@ def recommendation(state:AgentState)->str:
     response=llm.invoke([HumanMessage(content="Generate an answer in arabic"),SystemMessage(content=recom_prompt)]).content.strip()
 
     return {"recommendation":response}
+
+def send_recommendation(state:AgentState):
+
+    """
+    Here is a small python function to send recommendation 
+    """
+    recom=str(state.get("recommendation"))
+    url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
+    payload = {
+    "chat_id": CHAT_ID,
+    "text": recom}
+    requests.post(url,json=payload)
 
