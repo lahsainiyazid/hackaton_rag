@@ -9,3 +9,4 @@ class AgentState(TypedDict):
     context:str 
     answer:str
     recommendation:str
+    financial_plan:str

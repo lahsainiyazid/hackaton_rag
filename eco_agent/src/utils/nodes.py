@@ -15,6 +15,7 @@ from src.utils.model import llm, embeddings, reranker
 from src.utils.prompts.expansion_prompt import expansion_prompt
 from src.utils.prompts.recommendation_prompt import recommendation_prompt
 from src.utils.prompts.answer_prompt import answer_prompt
+from src.utils.prompts.plan_eco_prompt import financial_prompt 
 
 _=load_dotenv(find_dotenv())
 TOKEN=os.environ.get("BOT_TOKEN")
@@ -168,3 +169,16 @@ def send_recommendation(state:AgentState):
     "text": recom}
     requests.post(url,json=payload)
 
+def send_financial_and_plan(state:AgentState):
+    question=state["question"]
+    context=state["question"]
+    products=state["products"]
+    recommendation=state["recommendation"]
+    prompt=financial_prompt.format(question=question,
+                                   context=context,
+                                   products=products,
+                                   recommendation=recommendation)
+    financial_plan=llm.invoke([SystemMessage(content=prompt),HumanMessage("Generate in arabic!")]).content.strip()
+    return {
+        "financial_plan":financial_plan
+    }
