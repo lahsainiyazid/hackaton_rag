@@ -1,4 +1,5 @@
 import os
+import requests
 import cloudscraper 
 from dotenv import load_dotenv,find_dotenv
 from bs4 import BeautifulSoup
@@ -16,7 +17,8 @@ from src.utils.prompts.recommendation_prompt import recommendation_prompt
 from src.utils.prompts.answer_prompt import answer_prompt
 
 _=load_dotenv(find_dotenv())
-
+TOKEN=os.environ.get("BOT_TOKEN")
+CHAT_ID=os.environ.get("TELEGRAM_CHAT_ID")
 def retrieval(state: AgentState):
     question = state["question"]
 
