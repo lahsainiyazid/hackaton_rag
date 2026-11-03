@@ -1,69 +1,121 @@
-import os 
-from src.utils.objects import AgentState
-from src.utils.model import llm
-from src.utils.prompts.expansion_prompt import expansion_prompt
-from src.utils.prompts.answer_prompt import answer_prompt
+
+
+import os
+
 from pymongo import MongoClient
 from langchain_mongodb import MongoDBAtlasVectorSearch
 from langchain_community.retrievers import BM25Retriever
 from langchain_classic.retrievers import EnsembleRetriever
 from langchain_core.documents import Document
-from langchain_core.messages import HumanMessage,SystemMessage
-from dotenv import load_dotenv,find_dotenv
+from langchain_core.messages import HumanMessage, SystemMessage
 
-_=load_dotenv(find_dotenv())
+from src.utils.objects import AgentState
+from src.utils.model import llm, embeddings, reranker
+from src.utils.prompts.expansion_prompt import expansion_prompt
+from src.utils.prompts.answer_prompt import answer_prompt
 
 
-def retrieval(state:AgentState):
-    MONGODB_URI=os.getenv("MONGODB_URI")
-    client=MongoClient(MONGODB_URI)
-    db=client["tractor_rag"]
-    collection=db["agent_eco"]
-    vector_store = MongoDBAtlasVectorSearch(
-    collection=collection,
-    embedding=embeddings,              
-    index_name="vector_index",      
-    text_key="Content",         
-    embedding_key="embedding"       
-)
-# We continue by loading our docs:
+def retrieval(state: AgentState):
+    question = state["question"]
+
+    client = MongoClient(os.environ["MONGODB_URI"])
     try:
-        docs=[]
-        results=collection.find({})
-        for result in results:
-            docs.append(result)
-    except Exception as e:
-        print(f"Error{e}")
-    documents=[Document(
-    page_content=record["text"],
-    metadata={
-        **record["metadata"],
-        "chunk_id": record["metadata"]["id"]
-    }) for record in docs]
+        collection = client["tractor_rag"]["agent_eco"]
 
-    sparse=BM25Retriever.from_documents(documents,
-                                            k=5)
-    dense=vector_store.as_retriever(search_kwars={"k":5})
-    hybrid=EnsembleRetriever(retrievers=[dense,sparse],weights=[0.4,0.6])
+        # Load documents for BM25
+        records = list(collection.find({}))
+        print("MongoDB records:", len(records))
 
+        documents = [
+            Document(
+                page_content=record["Content"],
+                metadata=record.get("metadata", {})
+            )
+            for record in records
+            if record.get("Content")
+        ]
 
-    expansion_call=expansion_llm.invoke([HumanMessage(content=state.question),SystemMessage(content=expansion_prompt)])
-    expanded_query=expansion_call.content.strip()
-    results=hybrid.invoke(expanded_query)
-    pairs = [(request.question, doc.page_content) for doc in results]
-    scores = reranker.predict(pairs)
-    ranked_docs = [doc for _, doc in sorted(zip(scores, results), key=lambda x: x[0], reverse=True)]
-    final_docs = ranked_docs[:5]
-    formatted_prompt=answer_prompt.format(question=request.question,
-                         expanded_query=expanded_query,
-                         context=final_docs)
-    answer=answer_llm.invoke([SystemMessage(content=formatted_prompt),HumanMessage(content=request.question)]).content.strip()
-    return {
-        "question":question,
-        "expanded_query":expanded_query,
-        "documents":documents, 
-        "context":final_docs,
-        "answer":answer
-    }
- 
+        if not documents:
+            raise ValueError("No valid documents found for BM25")
 
+        # Dense retrieval
+        vector_store = MongoDBAtlasVectorSearch(
+            collection=collection,
+            embedding=embeddings,
+            index_name="vector_index",
+            text_key="Content",
+            embedding_key="embedding"
+        )
+
+        dense = vector_store.as_retriever(
+            search_kwargs={"k": 5}
+        )
+
+        # Sparse retrieval
+        sparse = BM25Retriever.from_documents(
+            documents,
+            k=5
+        )
+
+        hybrid = EnsembleRetriever(
+            retrievers=[dense, sparse],
+            weights=[0.4, 0.6]
+        )
+
+        # Query expansion
+        expansion_response = llm.invoke([
+            SystemMessage(content=expansion_prompt),
+            HumanMessage(content=question)
+        ])
+
+        expanded_query = expansion_response.content.strip()
+
+        # Hybrid retrieval
+        results = hybrid.invoke(expanded_query)
+
+        # Reranking
+        if results:
+            pairs = [
+                (question, doc.page_content)
+                for doc in results
+            ]
+
+            scores = reranker.predict(pairs)
+
+            ranked_docs = [
+                doc for _, doc in sorted(
+                    zip(scores, results),
+                    key=lambda x: x[0],
+                    reverse=True
+                )
+            ]
+            final_docs = ranked_docs[:5]
+        else:
+            final_docs = []
+
+        # Format context
+        context = "\n\n".join(
+            f"المصدر {i + 1}:\n{doc.page_content}"
+            for i, doc in enumerate(final_docs)
+        )
+
+        # Generate answer
+        formatted_prompt = answer_prompt.format(
+            question=question,
+            expanded_query=expanded_query,
+            context=context
+        )
+
+        answer = llm.invoke([
+            SystemMessage(content=formatted_prompt)
+        ]).content.strip()
+
+        return {
+            "expanded_query": expanded_query,
+            "documents": final_docs,
+            "context": context,
+            "answer": answer
+        }
+
+    finally:
+        client.close()
