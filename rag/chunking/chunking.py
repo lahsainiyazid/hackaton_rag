@@ -6,7 +6,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # Specify directory path (use Path(r"C:\path\to\data") if running on Windows)
-folder1 = Path("/home/yazid/backend/data")
+folder1 = Path("/home/yazid/backend/rag/data")
 
 print(f"Directory: {folder1}")
 print(f"Directory Exists: {folder1.exists()}")  # Fixed method call
@@ -56,7 +56,7 @@ for i, chunk in enumerate(chunks):
     updated_metadata = {**safe_metadata, "id": i}
     output.append({"Content": chunk.page_content, "metadata": updated_metadata})
 
-output_file = folder1 / "complete_windows.json"
+output_file = folder1 / "complete_arabic_json.json"
 
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(output, f, ensure_ascii=False, indent=2)

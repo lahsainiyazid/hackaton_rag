@@ -16,7 +16,7 @@ model = SentenceTransformer("intfloat/multilingual-e5-small")
 
 try:
     # Load JSON
-    with open("chunks.json", "r", encoding="utf-8") as file:
+    with open("/home/yazid/backend/rag/data/complete_arabic_json.json", "r", encoding="utf-8") as file:
         chunks = json.load(file)
 
     # Extract content
